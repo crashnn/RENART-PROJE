@@ -85,14 +85,14 @@ document.addEventListener('DOMContentLoaded', () => {
         if (!res.ok) throw new Error(`HTTP ${res.status}`); 
         return res.json(); 
       })
-      .then(products => { //
+      .then(products => { 
         if (!Array.isArray(products) || products.length === 0) { 
           throw new Error('Ürün bulunamadı');
         }
         allProducts = products; 
         sortAndRenderProducts(); 
       })
-      .catch(err => { //
+      .catch(err => { 
         console.error('Carousel yüklenemedi:', err); 
         renderError('Ürünler şu anda yüklenemiyor. Lütfen bağlantınızı kontrol edin.'); //
       });
