@@ -67,6 +67,7 @@ nav img {
 .filters {
     margin: 20px 0px;
     text-align: center;
+    color: black;
 }
 
 .filters label {
@@ -153,10 +154,12 @@ nav img {
 
 .carousel-button.prev {
     left: -30px;
+    color: black;
 }
 
 .carousel-button.next {
     right: -30px;
+    color: black;
 }
 
 .color-button {
