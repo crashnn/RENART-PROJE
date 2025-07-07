@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.cdnfonts.com/css/avenir" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>Renart Jewelry</title>
+</head>
+
+<body>
+    <nav>
+        <div class="nav-center">
+            <a href="index.html"><img src="https://i.hizliresim.com/7qv2thj.png" alt="Renart-Logo"></a></a>
+        </div>
+    </nav>
+
+    <section class="container">
+        <div class="header">
+            <h1>Renart Jewellery</h1>
+            <p>Discover the latest trends in jewellery with Renart Jewellery. Explore our exclusive collection of
+                handcrafted pieces
+                that blend elegance and style.</p>
+        </div>
+        <div class="headerImages">
+            <img src="https://plus.unsplash.com/premium_photo-1671641737553-3d669dc1f927?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="Jewelry Image 1">
+            <img src="https://images.unsplash.com/photo-1654521883301-070279dd0ae1?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="Jewelry Image 2">
+            <img src="https://plus.unsplash.com/premium_photo-1671641737541-714de143f6c7?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="Jewelry Image 3">
+        </div>
+        <div class="headerProduct">
+            <h2>Product List</h2>
+        </div>
+        <div class="filters">
+            <label for="sort-by">Filter:</label>
+            <select id="sort-by">
+                <option value="default">Default</option>
+                <option value="price-asc">Price (Low to High)</option>
+                <option value="price-desc">Price (High to Low)</option>
+                <option value="popularity-desc">Popularity (High to Low)</option>
+                <option value="popularity-asc">Popularity (Low to High)</option>
+            </select>
+        </div>
+        <div class="carousel-container">
+            <button class="carousel-button prev" onclick="scrollCarousel(-1)">❮</button>
+            <div class="carousel-track-wrapper" id="carouselWrapper">
+                <div class="carousel-track" id="carousel-track">
+
+                </div>
+            </div>
+            <button class="carousel-button next" onclick="scrollCarousel(1)">❯</button>
+        </div>
+    </section>
+
+    <footer>Copyright © 2025 Renart Inc. || All rights reserved.</footer>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
