@@ -111,7 +111,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 function scrollCarousel(direction) { 
   const wrapper = document.getElementById('carouselWrapper'); 
-  const scrollAmount = 600; 
+  const scrollAmount = 300; 
   wrapper.scrollBy({ left: scrollAmount * direction, behavior: 'smooth' }); 
 }
 
